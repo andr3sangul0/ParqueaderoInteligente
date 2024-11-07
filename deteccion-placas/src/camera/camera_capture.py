@@ -3,7 +3,7 @@ import os
 import time
 
 # Cargar el clasificador de cascada para placas
-cascade_path = "/haarcascade_russian_plate_number.xml"  # Asegúrate de que esta ruta sea correcta
+cascade_path = "C:/Users/USUARIO/OneDrive/Escritorio/Codigo/parqueadero-inteligente/deteccion-placas/src/utils/haarcascade_russian_plate_number.xml"  # Asegúrate de que esta ruta sea correcta
 plate_cascade = cv2.CascadeClassifier(cascade_path)
 
 # Crear la carpeta de imágenes si no existe
